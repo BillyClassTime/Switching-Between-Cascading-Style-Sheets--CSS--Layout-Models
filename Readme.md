@@ -94,18 +94,17 @@ In this demonstration we learn how to use the developers tools of Microsoft Edge
 
 1. In the F12 Developer Tools window, on the **CSS** tab, clear the three check boxes next to the display attributes for **body**, **article**, and **div**.![](pic09.png)
 
-   
-
-2. Right-click the **div** entry, and then select **Add rule**.
+ 
+2. Click in the **div** entry of CSS tab, and follow the next step.
 
 3. Type **#three**, and then press **Tab**.
 
 >**Note**: This action creates a new rule for the **&lt;div&gt;** element with the **id** property set to **three**. This is the **&lt;div&gt;** containing the text **Three**.
 
 4.	Type **position: relative**, and then press ENTER.![](pic10.png)
-5.	Right-click the **#three** entry, and then select **Add property**.
+5. Click the **#three** entry, and then select **Add property**.
 6.	Type **top: 2em**, and then press ENTER.
-7.	Right-click the **#three** entry, and then select **Add property**.
+7.	Click the **#three** entry, and then select **Add property**.
 8.	Type **left: 2em**, and then press ENTER.
 9.	In Microsoft Edge, notice how the application positions the **three** box relative to its normal position.
 10.	In the F12 Developer Tools window, on the **CSS** tab, click the **position:relative** rule for the **#three** selector, change it to **position:absolute**, and then press ENTER. ![](pic11.png)
