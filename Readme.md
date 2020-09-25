@@ -72,27 +72,27 @@ In this demonstration we learn how to use the developers tools of Microsoft Edge
 
 11. In Elements tab expand **body** and expand **article**.
 
-12. Right-click the **div** entry, and then select **Add attribute**.    ![](D:\20480C\Allfiles\Mod06\Democode\pic02.png)
+12. Right-click the **div** entry, and then select **Add attribute**.    ![](pic02.png)
 
-13. Type **style=display: inline** for each **div** entry, and then press ENTER.    ![](D:\20480C\Allfiles\Mod06\Democode\pic03.png)
+13. Type **style=display: inline** for each **div** entry, and then press ENTER.    ![](pic03.png)
 
 14. In Microsoft Edge, notice that the four **div** elements are now laid out side-by-side aligned by text baseline with height and width properties ignored. This is the **inline layout** mode.
 
 15.	Resize the browser window to make it narrower, so you can see how the application wraps the blocks onto the next line in the **inline layout** mode.
-16.	In the F12 Developer Tools window, on the **CSS** tab, click the **display: inline** rule, change it to read **display:inline-block**, and then press ENTER. ![](D:\20480C\Allfiles\Mod06\Democode\pic04.png)
-17.	Notice the layout is the same but the **height** and **width** properties are now preserved. This is the **inline-block** mode.  ![](D:\20480C\Allfiles\Mod06\Democode\pic05.png)
+16.	In the F12 Developer Tools window, on the **CSS** tab, click the **display: inline** rule, change it to read **display:inline-block**, and then press ENTER. ![](pic04.png)
+17.	Notice the layout is the same but the **height** and **width** properties are now preserved. This is the **inline-block** mode.  ![](pic05.png)
 
 >**Note**: If required, make the browser window wider so that blocks **One** and **Three** are on the same line.
 
 18.	In Microsoft Edge, resize the browser window so you can see how the application wraps the blocks onto the next line in the **inline layout** mode.
 19.	In the F12 Developer Tools window, on the **CSS** tab, click the **display: inline-block** rule. Change this rule to **display:-ms-flexbox**, and then press ENTER.
 20.	To view the new layout, switch to Microsoft Edge. The application displays the **div** elements in a vertical column.
-21.	In the F12 Developer Tools window, on the **CSS** tab, click the **display: -ms-flexbox** rule, change it to **display:table-cell**, and then press ENTER.![](D:\20480C\Allfiles\Mod06\Democode\pic06.png)
-22.	To view the new layout, switch to Microsoft Edge. The application displays the **div** elements in a horizontal table. ![](D:\20480C\Allfiles\Mod06\Democode\pic07.png)
+21.	In the F12 Developer Tools window, on the **CSS** tab, click the **display: -ms-flexbox** rule, change it to **display:table-cell**, and then press ENTER.![](pic06.png)
+22.	To view the new layout, switch to Microsoft Edge. The application displays the **div** elements in a horizontal table. ![](pic07.png)
 
 #### Switch between positioning modes in a webpage
 
-1. In the F12 Developer Tools window, on the **CSS** tab, clear the three check boxes next to the display attributes for **body**, **article**, and **div**.![](D:\20480C\Allfiles\Mod06\Democode\pic09.png)
+1. In the F12 Developer Tools window, on the **CSS** tab, clear the three check boxes next to the display attributes for **body**, **article**, and **div**.![](pic09.png)
 
    
 
@@ -102,15 +102,15 @@ In this demonstration we learn how to use the developers tools of Microsoft Edge
 
 >**Note**: This action creates a new rule for the **&lt;div&gt;** element with the **id** property set to **three**. This is the **&lt;div&gt;** containing the text **Three**.
 
-4.	Type **position: relative**, and then press ENTER.![](D:\20480C\Allfiles\Mod06\Democode\pic10.png)
+4.	Type **position: relative**, and then press ENTER.![](pic10.png)
 5.	Right-click the **#three** entry, and then select **Add property**.
 6.	Type **top: 2em**, and then press ENTER.
 7.	Right-click the **#three** entry, and then select **Add property**.
 8.	Type **left: 2em**, and then press ENTER.
 9.	In Microsoft Edge, notice how the application positions the **three** box relative to its normal position.
-10.	In the F12 Developer Tools window, on the **CSS** tab, click the **position:relative** rule for the **#three** selector, change it to **position:absolute**, and then press ENTER. ![](D:\20480C\Allfiles\Mod06\Democode\pic11.png)
+10.	In the F12 Developer Tools window, on the **CSS** tab, click the **position:relative** rule for the **#three** selector, change it to **position:absolute**, and then press ENTER. ![](pic11.png)
 11.	In Microsoft Edge, notice how the application positions the **three** box relative to its containing **article** block.
-12.	In the F12 Developer Tools window, on the **CSS** tab, click the **position:absolute** rule for the **#three** selector, change it to **position:fixed**, and then press ENTER.![](D:\20480C\Allfiles\Mod06\Democode\pic12.png)
+12.	In the F12 Developer Tools window, on the **CSS** tab, click the **position:absolute** rule for the **#three** selector, change it to **position:fixed**, and then press ENTER.![](pic12.png)
 13.	In Microsoft Edge, notice how the application positions the **three** box relative to the browser window. Make the window small enough to require scrolling and see how the **three** box remains stationary when you scroll (it does not scroll into view).
 14.	Close Microsoft Edge.
 15.	Close **positioning.html - Microsoft Visual Studio**. 
