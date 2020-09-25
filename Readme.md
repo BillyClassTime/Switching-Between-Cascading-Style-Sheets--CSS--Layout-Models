@@ -61,7 +61,7 @@ In this demonstration we learn how to use the developers tools of Microsoft Edge
 
 7. Observe the four **div** elements laid out one below the other, in order, within the **article** element. To highlight its boundaries, the **article** element has a red border. This is the **block layout** mode.
 
-   ![](D:\20480C\Allfiles\Mod06\Democode\pic00.png)
+   ![](pic00.png)
 
 8. Press F12.
 
